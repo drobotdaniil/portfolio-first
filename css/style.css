@@ -54,9 +54,7 @@ img{
 .nav__item:first-child{
     margin-top: 15px;
 }
-.nav__item:last-child{
-    margin-right: 0;
-}
+
 .nav__item--active{
     color: #111111;
     text-decoration: none;
@@ -120,6 +118,9 @@ img{
     }
     .nav__item:first-child{
         margin-top: 0px;
+    }
+    .nav__item:last-child{
+        margin-right: 0;
     }
  }
  
