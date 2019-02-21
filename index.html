@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>THE3D</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900|Playfair+Display:400,400i" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    
+</head>
+<body>
+   <div class="nav-wrapper">
+       <div class="logo">
+            <a href="#">
+                    <img src="img/logo.png" alt="LOGO">
+            </a>  
+        </div>
+        <div class="nav">
+                <a href="#" class="nav__item ">Home</a>
+                <a href="#" class="nav__item ">About</a> <!--nav__item--active-->
+                <a href="#" class="nav__item">Blog</a>
+                <a href="#" class="nav__item">Contact</a> 
+        </div>
+        <div class="hidden">
+                <a id="audio-play" class="audioPlay" data-type="audio-controller"></a>
+        </div>
+        <div class="hidden">
+                <a id="audio-pause" class="audioPause" data-type="audio-controller"></a>
+        </div>
+        <audio id="audio__track" class ="audio__element" src="mp3/Blue-Foundation--Eyes-on-fire.mp3" controls></audio>
+   </div>
+   <div class="header-wrapper">
+    <h1 class="header-title">The3D's Portfolio</h1>
+    <div class="header-description">
+        <p>Hi! My name is Daniil Drobot and this is my portfolio.</p>
+    </div>
+     <!--Headercontent-->
+    <div class="header-content">
+         <!--Reviews left-->
+         <div class="reviews">
+                 <div class="reviews__title">Recent Review</div>
+                 <div class="review_item">
+                     <div class="review-item__text">
+                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, alias.
+                     </div>
+                     <div class="review-item__author">
+                         Daniil Drobot
+                     </div>
+                 </div>
+                 <div class="review_item">
+                      <div class="review-item__text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, alias.
+                      </div>
+                      <div class="review-item__author">
+                          Sonya Sukhyna
+                      </div>
+                  </div>
+         </div>
+          <!--Video center-->
+         <div class="video-center">
+             <div class="play-icon"></div>
+             <img src="img/1.png" alt="Video 1">
+         </div>
+
+         <!--Video right-->
+             <div class="video">
+                 <div class="video__title">User Videos</div>
+                 <div class="video-item">
+                     <div class="play-icon"></div>
+                     <img src="img/2.jpg" alt="">
+                 </div>
+                 <div class="video-item">
+                     <div class="play-icon"></div>
+                     <img src="img/2.jpg" alt="">
+                 </div>
+             </div>
+    </div>
+   
+   </div>
+   <div class="container">
+        <h2 class="header-1">Instafeed.js with slideshow</h2>
+        <div class="worker-wrapper">
+           <!-- <div class="worker">
+                <div class="worker__photo">
+                    <img src="img/worker1.jpg" alt="worker">
+                </div>
+                <div class="worker__name">Sonya Sukhyna</div>
+                <div class="worker__cool">1,000,000 likes</div>
+            </div>-->
+            <div class="worker">
+                    <div class="instafeed" id="instafeed">
+                        <!--<img src="img/worker1.jpg" alt="worker">
+                        <img src="img/worker2.jpg" alt="worker">-->
+                    </div>
+                    <div class="worker__name">Daniil Drobot</div>
+                    <div class="worker__cool">1,000,000 likes</div>
+                </div>
+        </div>
+        <h2 class="header-1">Recent Blogs By Users</h2>
+        <div class="blog-item">
+            <div class="blog-item__image">
+                <img src="img/blog1.jpg" alt="blog1">
+            </div>
+            <div class="blog-item__content">
+                <div class="blog-item__header">
+                    Lorem ipsum loe koie sit
+                </div>
+                <div class="blog-item__desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus repellendus obcaecati harum ut officia fugit modi vel blanditiis, accusantium maxime expedita quas sunt provident voluptatum ad asperiores eos magni soluta?
+                </div>
+                <a href="#" class="blog-item__readmore">Read More</a>
+            </div>
+        </div>
+        <div class="blog-item">
+                <div class="blog-item__image">
+                    <img src="img/blog1.jpg" alt="blog1">
+                </div>
+                <div class="blog-item__content second">
+                    <div class="blog-item__header">
+                        Lorem ipsum loe koie sit
+                    </div>
+                    <div class="blog-item__desc">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus repellendus obcaecati harum ut officia fugit modi vel blanditiis, accusantium maxime expedita quas sunt provident voluptatum ad asperiores eos magni soluta?
+                    </div>
+                    <a href="#" class="blog-item__readmore">Read More</a>
+                </div>
+        </div>
+        <div class="section text-center">
+                <h2 class="header-1">Aren't you interested yet!!</h2>
+            
+                <a href="#" class="button">Enroll now</a>
+            </div>
+   </div>
+   <footer class="footer">
+
+        <div class="footer-container">
+            <div class="footer-copy">
+                <div class="footer-copy-title">
+                        Porfolio
+                </div>
+                <div class="footer-copy-text">
+                        Copyrights (c) All Rights Reserved.
+                </div>
+            </div>
+            <div class="footer__designer">
+                    Designed by <strong>The.3D</strong>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/instafeed.min.js"></script>
+    <script src="js/slideshow.js"></script>
+    <script src="js/insta.js"></script>
+    <script src="js/mp3.js"></script>
+</body>
+</html>
