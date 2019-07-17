@@ -1,1 +1,1 @@
-# the3d.github.io
+# https://drobotdaniil.github.io/the3d/
